@@ -1,0 +1,3 @@
+﻿  Source.cpp
+d:\прога\controlwork.winter.2018-master\task1a\source.cpp(101): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+  task1a.vcxproj -> D:\прога\ControlWork.Winter.2018-master\x64\Debug\task1a.exe
