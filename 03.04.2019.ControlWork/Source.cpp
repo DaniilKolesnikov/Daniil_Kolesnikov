@@ -68,20 +68,20 @@ char* codingString(char string)
 
 	char* code = new char[5]{ 0 };
 
-	for (int j = 0; j < strlen(symbols) + 1; j++)
+	for (int i = 0; i < strlen(symbols) + 1; i++)
 	{
-		if (toupper(string) == symbols[j])
+		if (toupper(string) == symbols[i])
 		{
 			code[0] = symbols[0];
-			if (j < 10)
+			if (i < 10)
 			{
-				code[1] = j + '0';
+				code[1] = i + '0';
 				code[2] = symbols[27];
 			}
 			else
 			{
-				code[1] = j / 10 + '0';
-				code[2] = j % 10 + '0';
+				code[1] = i / 10 + '0';
+				code[2] = i % 10 + '0';
 				code[3] = symbols[27];
 			}
 
